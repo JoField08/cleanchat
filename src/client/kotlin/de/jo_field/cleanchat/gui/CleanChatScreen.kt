@@ -366,11 +366,11 @@ class CleanChatScreen(private val parent: Screen?) : Screen(Component.literal("C
             rowLeft,
             controlsY,
             22,
-            if (rule.enabled) "Rule enabled" else "Rule disabled",
+            if (rule.enabled) "[x]" else "[ ]",
             ButtonStyle.CHECKBOX
         ) {
             rule.enabled = !rule.enabled
-            label(it, if (rule.enabled) "Rule enabled" else "Rule disabled")
+            label(it, if (rule.enabled) "[x]" else "[ ]")
             it.setTooltip(Tooltip.create(Component.literal(if (rule.enabled) "Rule enabled" else "Rule disabled")))
         } to controlsY
         widgets += button(modeX, controlsY, modeWidth, rule.mode.displayName, ButtonStyle.SELECT) {

@@ -5,6 +5,7 @@
   "name": "Clean Chat",
   "description": "Hides, or censors, chat messages that match user-defined string, case-insensitive-equals, or regex patterns.",
   "authors": ["Jo_field"],
+  "icon": "assets/cleanchat/icon/icon.png",
   "contact": {},
   "license": "GNU GENERAL PUBLIC LICENSE - Version 3",
   "environment": "client",
