@@ -3,7 +3,7 @@
   "id": "cleanchat",
   "version": "${version}",
   "name": "Clean Chat",
-  "description": "Hides, or censors, chat messages that match user-defined string, case-insensitive-equals, or regex patterns.",
+  "description": "Hides, or censors, chat messages that match user-defined string, case-insensitive, or regex patterns.",
   "authors": ["Jo_field"],
   "icon": "assets/cleanchat/icon/icon.png",
   "contact": {},
