@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cleanchat",
+  "version": "${version}",
+  "name": "Clean Chat",
+  "description": "Hides, or censors, chat messages that match user-defined string, case-insensitive-equals, or regex patterns.",
+  "authors": ["Jo_field"],
+  "contact": {},
+  "license": "GNU GENERAL PUBLIC LICENSE - Version 3",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "value": "de.jo_field.cleanchat.CleanChatClient"
+      }
+    ],
+    "modmenu": [
+      {
+        "value": "de.jo_field.cleanchat.gui.CleanChatModMenuIntegration"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*",
+    "minecraft": "~26.2",
+    "java": ">=25"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {}
+    }
+  }
+}
